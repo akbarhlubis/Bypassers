@@ -28,33 +28,33 @@
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "android-icon-144.png",
-      "android-icon-192": "android-icon-192.png",
-      "android-icon-36": "android-icon-36.png",
-      "android-icon-48": "android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "android-icon-96.png",
-      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
-      "desktop-icon-512": "desktop-icon-512.png",
-      "ios-icon-100": "ios-icon-100.png",
-      "ios-icon-1024": "ios-icon-1024.png",
-      "ios-icon-114": "ios-icon-114.png",
-      "ios-icon-120": "ios-icon-120.png",
-      "ios-icon-144": "ios-icon-144.png",
-      "ios-icon-152": "ios-icon-152.png",
-      "ios-icon-167": "ios-icon-167.png",
-      "ios-icon-180": "ios-icon-180.png",
-      "ios-icon-20": "ios-icon-20.png",
-      "ios-icon-29": "ios-icon-29.png",
-      "ios-icon-40": "ios-icon-40.png",
-      "ios-icon-50": "ios-icon-50.png",
-      "ios-icon-57": "ios-icon-57.png",
-      "ios-icon-58": "ios-icon-58.png",
-      "ios-icon-60": "ios-icon-60.png",
-      "ios-icon-72": "ios-icon-72.png",
-      "ios-icon-76": "ios-icon-76.png",
-      "ios-icon-80": "ios-icon-80.png",
-      "ios-icon-87": "ios-icon-87.png",
+      "android-icon-144": "assets\\icons\\android-icon-144.png",
+      "android-icon-192": "assets\\icons\\android-icon-192.png",
+      "android-icon-36": "assets\\icons\\android-icon-36.png",
+      "android-icon-48": "assets\\icons\\android-icon-48.png",
+      "android-icon-72": "assets\\icons\\android-icon-72.png",
+      "android-icon-96": "assets\\icons\\android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "assets\\icons\\android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "assets\\icons\\desktop-icon-512.png",
+      "ios-icon-100": "assets\\icons\\ios-icon-100.png",
+      "ios-icon-1024": "assets\\icons\\ios-icon-1024.png",
+      "ios-icon-114": "assets\\icons\\ios-icon-114.png",
+      "ios-icon-120": "assets\\icons\\ios-icon-120.png",
+      "ios-icon-144": "assets\\icons\\ios-icon-144.png",
+      "ios-icon-152": "assets\\icons\\ios-icon-152.png",
+      "ios-icon-167": "assets\\icons\\ios-icon-167.png",
+      "ios-icon-180": "assets\\icons\\ios-icon-180.png",
+      "ios-icon-20": "assets\\icons\\ios-icon-20.png",
+      "ios-icon-29": "assets\\icons\\ios-icon-29.png",
+      "ios-icon-40": "assets\\icons\\ios-icon-40.png",
+      "ios-icon-50": "assets\\icons\\ios-icon-50.png",
+      "ios-icon-57": "assets\\icons\\ios-icon-57.png",
+      "ios-icon-58": "assets\\icons\\ios-icon-58.png",
+      "ios-icon-60": "assets\\icons\\ios-icon-60.png",
+      "ios-icon-72": "assets\\icons\\ios-icon-72.png",
+      "ios-icon-76": "assets\\icons\\ios-icon-76.png",
+      "ios-icon-80": "assets\\icons\\ios-icon-80.png",
+      "ios-icon-87": "assets\\icons\\ios-icon-87.png",
       "liluo-thumbnail": "assets\\tileset\\thumbnail.png"
     },
     "loadingScreen": {
@@ -214,16 +214,6 @@
         }
       },
       {
-        "file": "NewFile.wav",
-        "kind": "audio",
-        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 4\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.6732980579718404,\\\"sustainPunch\\\":60,\\\"decay\\\":2.444741575696385,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-1400,\\\"frequencyDeltaSweep\\\":-4200,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.26,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.9,\\\"normalization\\\":true,\\\"amplification\\\":200}\",\"name\":\"NewFile\"}}",
-        "name": "NewFile.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "file": "assets/sounds/sfx/sfx_1.wav",
         "kind": "audio",
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 21\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":50,\\\"decay\\\":0.4,\\\"tremoloDepth\\\":2,\\\"tremoloFrequency\\\":30,\\\"frequency\\\":3500,\\\"frequencySweep\\\":-4400,\\\"frequencyDeltaSweep\\\":-3500,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.2000000000000002,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"sfx_1\"}}",
@@ -232,13 +222,6 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
-      },
-      {
-        "file": "cour.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "cour.ttf",
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -250,245 +233,271 @@
         "userAdded": true
       },
       {
+        "file": "assets/sounds/sfx/sfx_2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sfx\\sfx_2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
+        "file": "assets/icons/desktop-icon-512.png",
         "kind": "image",
         "metadata": "",
-        "name": "desktop-icon-512.png",
+        "name": "assets\\icons\\desktop-icon-512.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-192.png",
+        "file": "assets/icons/android-windowSplashScreenAnimatedIcon.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-192.png",
+        "name": "assets\\icons\\android-windowSplashScreenAnimatedIcon.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-144.png",
+        "file": "assets/icons/android-icon-192.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-144.png",
+        "name": "assets\\icons\\android-icon-192.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-96.png",
+        "file": "assets/icons/android-icon-144.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-96.png",
+        "name": "assets\\icons\\android-icon-144.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-72.png",
+        "file": "assets/icons/android-icon-96.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-72.png",
+        "name": "assets\\icons\\android-icon-96.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-48.png",
+        "file": "assets/icons/android-icon-72.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-48.png",
+        "name": "assets\\icons\\android-icon-72.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-36.png",
+        "file": "assets/icons/android-icon-48.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-icon-36.png",
+        "name": "assets\\icons\\android-icon-48.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "android-windowSplashScreenAnimatedIcon.png",
+        "file": "assets/icons/android-icon-36.png",
         "kind": "image",
         "metadata": "",
-        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "name": "assets\\icons\\android-icon-36.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-1024.png",
+        "file": "assets/icons/ios-icon-1024.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-1024.png",
+        "name": "assets\\icons\\ios-icon-1024.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
+        "file": "assets/icons/ios-icon-180.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-180.png",
+        "name": "assets\\icons\\ios-icon-180.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
+        "file": "assets/icons/ios-icon-167.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-167.png",
+        "name": "assets\\icons\\ios-icon-167.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
+        "file": "assets/icons/ios-icon-152.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-152.png",
+        "name": "assets\\icons\\ios-icon-152.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
+        "file": "assets/icons/ios-icon-120.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-144.png",
+        "name": "assets\\icons\\ios-icon-120.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
+        "file": "assets/icons/ios-icon-144.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-120.png",
+        "name": "assets\\icons\\ios-icon-144.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
+        "file": "assets/icons/ios-icon-20.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-114.png",
+        "name": "assets\\icons\\ios-icon-20.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
+        "file": "assets/icons/ios-icon-29.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-100.png",
+        "name": "assets\\icons\\ios-icon-29.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-87.png",
+        "file": "assets/icons/ios-icon-40.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-87.png",
+        "name": "assets\\icons\\ios-icon-40.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
+        "file": "assets/icons/ios-icon-114.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-80.png",
+        "name": "assets\\icons\\ios-icon-114.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
+        "file": "assets/icons/ios-icon-100.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-76.png",
+        "name": "assets\\icons\\ios-icon-100.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
+        "file": "assets/icons/ios-icon-87.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-72.png",
+        "name": "assets\\icons\\ios-icon-87.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
+        "file": "assets/icons/ios-icon-80.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-60.png",
+        "name": "assets\\icons\\ios-icon-80.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
+        "file": "assets/icons/ios-icon-76.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-58.png",
+        "name": "assets\\icons\\ios-icon-76.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
+        "file": "assets/icons/ios-icon-72.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-57.png",
+        "name": "assets\\icons\\ios-icon-72.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
+        "file": "assets/icons/ios-icon-60.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-50.png",
+        "name": "assets\\icons\\ios-icon-60.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
+        "file": "assets/icons/ios-icon-58.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-40.png",
+        "name": "assets\\icons\\ios-icon-58.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
+        "file": "assets/icons/ios-icon-57.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-29.png",
+        "name": "assets\\icons\\ios-icon-57.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-20.png",
+        "file": "assets/icons/ios-icon-50.png",
         "kind": "image",
         "metadata": "",
-        "name": "ios-icon-20.png",
+        "name": "assets\\icons\\ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/cour.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\cour.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tileset/block-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tileset\\block-1.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -532,7 +541,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8024000000000004,
+        "zoomFactor": 0.7224000000000004,
         "windowMask": false
       },
       "objectsGroups": [
@@ -541,6 +550,17 @@
           "objects": [
             {
               "name": "Target"
+            }
+          ]
+        },
+        {
+          "name": "System",
+          "objects": [
+            {
+              "name": "Spawner"
+            },
+            {
+              "name": "Block"
             }
           ]
         }
@@ -555,8 +575,8 @@
           "name": "Player",
           "persistentUuid": "ce59f11d-9411-47ef-a0b2-0c079c9c8c3a",
           "width": 0,
-          "x": 190,
-          "y": 255,
+          "x": 180,
+          "y": 188,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -698,6 +718,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "c637378f-2a87-4609-958a-bf79d58c38c5",
+          "width": 702,
+          "x": 83,
+          "y": 60,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "2b51d2e5-6d50-412a-b081-c0777b93be96",
+          "width": 702,
+          "x": 80,
+          "y": 418,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 375,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "d65bf632-7abe-45e9-8184-d57589efad10",
+          "width": 13,
+          "x": 784,
+          "y": 64,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 374,
+          "layer": "",
+          "name": "Block",
+          "persistentUuid": "ea44db61-3588-470d-a0a0-9a0a2007d33a",
+          "width": 13,
+          "x": 74,
+          "y": 63,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -727,16 +807,26 @@
               "type": "ShakeObject::ShakeObject_PositionAngle"
             },
             {
+              "name": "ThreeDFlip",
+              "type": "ThreeDFlip::ThreeDFlip",
+              "Duration": 500,
+              "IsFlipped": false,
+              "IsFlipping": false,
+              "Width": 500,
+              "ElapsedTime": 500,
+              "Toggle": false
+            },
+            {
+              "acceleration": 500,
+              "deceleration": 500,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 400,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "customIsometryAngle": 30,
-              "deceleration": 800,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
               "movementAngleOffset": 0,
               "rotateObject": false,
               "viewpoint": "TopDown"
@@ -1239,6 +1329,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -1267,13 +1364,36 @@
           "effects": [],
           "behaviors": [],
           "string": "Drag & Drop Karakter untuk melindungi Data Center dari Hackerpointer",
-          "font": "cour.ttf",
+          "font": "assets\\fonts\\cour.ttf",
           "characterSize": 14,
           "color": {
             "b": 255,
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Block",
+          "tags": "",
+          "texture": "assets\\tileset\\block-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -1525,7 +1645,7 @@
               },
               "parameters": [
                 "",
-                "NewFile.wav",
+                "assets\\sounds\\sfx\\sfx_2.wav",
                 "",
                 "RandomWithStep(90,95,100)",
                 ""
@@ -1540,6 +1660,32 @@
                 "Flash",
                 "0.5",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetColor"
+              },
+              "parameters": [
+                "DataCenterH",
+                "\"208;2;27\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetColor"
+              },
+              "parameters": [
+                "DataCenterH",
+                "\"80;227;194\""
               ]
             }
           ]
@@ -1766,9 +1912,59 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Information Text",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Information",
+                    "=",
+                    "(ScreenWidth()/2)-(Information.Width()/2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "System"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Block",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -1809,6 +2005,10 @@
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip"
+        },
+        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         },
@@ -1821,6 +2021,2574 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "VegeTato, D8H",
+      "category": "Visual effect",
+      "description": "Helpful to make a 3D rotation effect on objects.\n\nNote that the X origin point must be at the center for the best results.",
+      "extensionNamespace": "",
+      "fullName": "3D Flip",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsaXAtaG9yaXpvbnRhbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNSAyMUgxN1YxOUgxNU0xOSA5SDIxVjdIMTlNMyA1VjE5QzMgMjAuMSAzLjkgMjEgNSAyMUg5VjE5SDVWNUg5VjNINUMzLjkgMyAzIDMuOSAzIDVNMTkgM1Y1SDIxQzIxIDMuOSAyMC4xIDMgMTkgM00xMSAyM0gxM1YxSDExTTE5IDE3SDIxVjE1SDE5TTE1IDVIMTdWM0gxNU0xOSAxM0gyMVYxMUgxOU0xOSAyMUMyMC4xIDIxIDIxIDIwLjEgMjEgMTlIMTlaIiAvPjwvc3ZnPg==",
+      "name": "ThreeDFlip",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg",
+      "shortDescription": "Flip sprites with a 3D effect.",
+      "version": "1.0.1",
+      "origin": {
+        "identifier": "ThreeDFlip",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "3d",
+        "flip"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Flip a Sprite with a 3D effect.",
+          "fullName": "3D Flip",
+          "name": "ThreeDFlip",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "doStepPreEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::PropertyIsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyElapsedTime"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "+",
+                            "TimeDelta() * 1000"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeWidth"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "Object.Behavior::PropertyWidth() * abs(cos(3.141592 * Object.Behavior::PropertyElapsedTime() / Object.Behavior::PropertyDuration()))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Egal"
+                          },
+                          "parameters": [
+                            "Object.Behavior::PropertyElapsedTime()",
+                            ">=",
+                            "Object.Behavior::PropertyDuration() / 2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::PropertyIsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "no"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ThreeDFlip::ThreeDFlip::PropertyIsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Egal"
+                          },
+                          "parameters": [
+                            "Object.Behavior::PropertyElapsedTime()",
+                            ">=",
+                            "Object.Behavior::PropertyDuration()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeWidth"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "Object.Behavior::PropertyWidth()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipping"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "no"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Start a flipping animation on the object.",
+              "fullName": "Flip the object",
+              "functionType": "Action",
+              "group": "",
+              "name": "Flip",
+              "private": false,
+              "sentence": "Flip _PARAM0_ over _PARAM2_ms",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "The previous animation is not yet finished, flip the other way around starting from there.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyElapsedTime"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyDuration() - Object.Behavior::PropertyElapsedTime() * GetArgumentAsNumber(\"Duration\") / Object.Behavior::PropertyDuration()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Set the flipped property as if the previous animation has finished.",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyToggle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ThreeDFlip::ThreeDFlip::PropertyToggle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyToggle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ThreeDFlip::ThreeDFlip::PropertyToggle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ThreeDFlip::ThreeDFlip::SetPropertyToggle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Start a new flipping animation.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyWidth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Width()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyElapsedTime"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Duration\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Duration (in milliseconds)",
+                  "longDescription": "",
+                  "name": "Duration",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stops flipping the object.",
+              "fullName": "Stop the flip",
+              "functionType": "Action",
+              "group": "",
+              "name": "StopFlip",
+              "private": false,
+              "sentence": "Stop flipping _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyWidth()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::SetPropertyIsFlipped"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Checks if a flipping animation is currently playing.",
+              "fullName": "Flipping is playing",
+              "functionType": "Condition",
+              "group": "",
+              "name": "IsFlipping",
+              "private": false,
+              "sentence": "_PARAM0_ is flipping",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::PropertyIsFlipping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Checks if the object has been flipped.",
+              "fullName": "Is flipped",
+              "functionType": "Condition",
+              "group": "",
+              "name": "IsFlipped",
+              "private": false,
+              "sentence": "_PARAM0_ is flipped",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::PropertyIsFlipped"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Flips the object to one specific side.",
+              "fullName": "Flip to a side",
+              "functionType": "Action",
+              "group": "",
+              "name": "FlipTo",
+              "private": false,
+              "sentence": "Flip _PARAM0_ reverse side: _PARAM2_ over _PARAM3_ms",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "When the object is flipping, the \"is flipped\" parameter is not yet set,\nso it's value is the opposite of the animation goal.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"Flip\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"Flip\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"Flip\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipping"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"Flip\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ThreeDFlip::ThreeDFlip::IsFlipped"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ThreeDFlip::ThreeDFlip::Flip"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "GetArgumentAsNumber(\"Duration\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Reverse side",
+                  "longDescription": "",
+                  "name": "Flip",
+                  "optional": false,
+                  "supplementaryInformation": "[\"Flipped\",\"Unflipped\"]",
+                  "type": "yesorno"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Duration (in milliseconds)",
+                  "longDescription": "",
+                  "name": "Duration",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "500",
+              "type": "Number",
+              "label": "Rotation duration (in milliseconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Duration"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "IsFlipped"
+            },
+            {
+              "value": "\"r\"",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "IsFlipping"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Width"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Elapse time",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "ElapsedTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Toggle"
+            }
+          ]
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian",
+      "category": "Movement",
+      "description": "Allow the object to fire bullets with customizable speed, angle and fire rate.\n\nCooldown: Time between shots (seconds)\nBullet Quantity: Number of bullets shot at once\nAngle Variance: Each bullet trajectory will be adjusted by a random value within this range (degrees)\nFiring Arc: Range of angles (in degrees) that bullets will shoot. Bullets are evenly spread within this range.\nRotate bullet: Change angle of bullet to match the direction it is travelling (enabled by default)\n",
+      "extensionNamespace": "",
+      "fullName": "Fire bullets",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWJ1bGxldCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNCwyMkgxMFYyMUgxNFYyMk0xMywxMFY3SDExVjEwTDEwLDExLjVWMjBIMTRWMTEuNUwxMywxME0xMiwyQzEyLDIgMTEsMyAxMSw1VjZIMTNWNUMxMyw1IDEzLDMgMTIsMloiIC8+PC9zdmc+",
+      "name": "FireBullet",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/bullet.svg",
+      "shortDescription": "Allow the object to fire bullets with customizable speed, angle and fire rate.",
+      "version": "0.2.1",
+      "origin": {
+        "identifier": "FireBullet",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "fire",
+        "bullet",
+        "spawn",
+        "firerate"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "xpwUwByyImTDcHEqDUqfyg0oRBt1",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
+          "fullName": "Fire Bullet",
+          "name": "FireBullet",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Fire a bullet toward a position.",
+              "fullName": "Fire a bullet toward a position",
+              "functionType": "Action",
+              "group": "",
+              "name": "FireTowardPosition",
+              "private": false,
+              "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, toward position _PARAM5_;_PARAM6_ with speed _PARAM7_ px/s, rotate bullet: _PARAM8_",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Calculate the trajectory angle and use the \"Fire\" bullet action",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GetArgumentAsBoolean"
+                          },
+                          "parameters": [
+                            "\"RotateBullet\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::Fire"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "GetArgumentAsNumber(\"XPosition\")",
+                            "GetArgumentAsNumber(\"YPosition\")",
+                            "Bullet",
+                            "Object.AngleToPosition(GetArgumentAsNumber(\"TargetXPosition\"),GetArgumentAsNumber(\"TargetYPosition\"))",
+                            "GetArgumentAsNumber(\"Speed\")",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "GetArgumentAsBoolean"
+                          },
+                          "parameters": [
+                            "\"RotateBullet\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::Fire"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "GetArgumentAsNumber(\"XPosition\")",
+                            "GetArgumentAsNumber(\"YPosition\")",
+                            "Bullet",
+                            "Object.AngleToPosition(GetArgumentAsNumber(\"TargetXPosition\"),GetArgumentAsNumber(\"TargetYPosition\"))",
+                            "GetArgumentAsNumber(\"Speed\")",
+                            "no",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "X position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "XPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Y position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "YPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "The bullet object",
+                  "longDescription": "",
+                  "name": "Bullet",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Target X position",
+                  "longDescription": "",
+                  "name": "TargetXPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Target Y position",
+                  "longDescription": "",
+                  "name": "TargetYPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Speed of the bullet, in pixels per second",
+                  "longDescription": "",
+                  "name": "Speed",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "yes",
+                  "description": "Rotate bullet to match trajectory",
+                  "longDescription": "",
+                  "name": "RotateBullet",
+                  "optional": true,
+                  "supplementaryInformation": "",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Fire a bullet.",
+              "fullName": "Fire a bullet",
+              "functionType": "Action",
+              "group": "",
+              "name": "Fire",
+              "private": false,
+              "sentence": "Fire _PARAM4_ from _PARAM0_, at position _PARAM2_;_PARAM3_, with angle _PARAM5_ and speed _PARAM6_ px/s",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\"",
+                        "Object.Behavior::PropertyFireCooldown()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Single bullet",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Behavior::PropertyBulletQuantity()",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Bullet",
+                                "GetArgumentAsNumber(\"XPosition\")",
+                                "GetArgumentAsNumber(\"YPosition\")",
+                                "\"\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceAL"
+                              },
+                              "parameters": [
+                                "Bullet",
+                                "GetArgumentAsNumber(\"Angle\") + RandomInRange(-Object.Behavior::PropertyAngleVariance(),Object.Behavior::PropertyAngleVariance())",
+                                "GetArgumentAsNumber(\"Speed\")",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "FireBullet::FireBullet::PropertyRotateBullet"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetAngle"
+                                  },
+                                  "parameters": [
+                                    "Bullet",
+                                    "=",
+                                    "GetArgumentAsNumber(\"Angle\")"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Multiple bullets",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Behavior::PropertyBulletQuantity()",
+                                ">",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FireBullet::FireBullet::SetPropertyCurrentBulletAngle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "GetArgumentAsNumber(\"Angle\") - Object.Behavior::PropertyFiringArc()/2"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "Object.Behavior::PropertyBulletQuantity()",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Bullet",
+                                    "GetArgumentAsNumber(\"XPosition\")",
+                                    "GetArgumentAsNumber(\"YPosition\")",
+                                    "\"\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AddForceAL"
+                                  },
+                                  "parameters": [
+                                    "Bullet",
+                                    "Object.Behavior::PropertyCurrentBulletAngle() + RandomInRange(-Object.Behavior::PropertyAngleVariance(),Object.Behavior::PropertyAngleVariance())",
+                                    "GetArgumentAsNumber(\"Speed\")",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::PropertyRotateBullet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Behavior"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetAngle"
+                                      },
+                                      "parameters": [
+                                        "Bullet",
+                                        "=",
+                                        "Object.Behavior::PropertyCurrentBulletAngle()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::SetPropertyCurrentBulletAngle"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Behavior",
+                                        "+",
+                                        "Object.Behavior::PropertyFiringArc() / (Object.Behavior::PropertyBulletQuantity() - 1)"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "X position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "XPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Y position, where to create the bullet",
+                  "longDescription": "",
+                  "name": "YPosition",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "The bullet object",
+                  "longDescription": "",
+                  "name": "Bullet",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Angle of the bullet, in degrees",
+                  "longDescription": "",
+                  "name": "Angle",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Speed of the bullet, in pixels per second",
+                  "longDescription": "",
+                  "name": "Speed",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object has just fired something.",
+              "fullName": "Has just fired",
+              "functionType": "Condition",
+              "group": "",
+              "name": "HasJustFired",
+              "private": false,
+              "sentence": "_PARAM0_ has just fired",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::PropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if bullet rotates to match trajectory.",
+              "fullName": "Is bullet rotation enabled",
+              "functionType": "Condition",
+              "group": "",
+              "name": "BulletRotationEnabled",
+              "private": false,
+              "sentence": "Bullet rotation enabled on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::PropertyRotateBullet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "doStepPreEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "="
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "onCreated",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "doStepPostEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::PropertyHasJustFired"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"FireCooldown\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the firing arc (in degrees) where bullets will be shot. Bullets will be evenly spaced out inside the firing arc.",
+              "fullName": "Set firing arc",
+              "functionType": "Action",
+              "group": "",
+              "name": "SetFiringArc",
+              "private": false,
+              "sentence": "Set firing arc of _PARAM0_ to _PARAM2_ degrees",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyFiringArc"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Firing arc (degrees) Range: 0 to 360",
+                  "longDescription": "",
+                  "name": "Value",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the angle variance (in degrees) applied to each bullet.",
+              "fullName": "Set angle variance",
+              "functionType": "Action",
+              "group": "",
+              "name": "SetAngleVariance",
+              "private": false,
+              "sentence": "Set angle variance of _PARAM0_ to _PARAM2_ degrees",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyAngleVariance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Angle variance (degrees) Range: 0 to 180",
+                  "longDescription": "",
+                  "name": "Value",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the number of bullets shot every time the \"fire bullet\" action is used.",
+              "fullName": "Set bullet quantity",
+              "functionType": "Action",
+              "group": "",
+              "name": "SetBulletQuantity",
+              "private": false,
+              "sentence": "Set bullet quantity of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyBulletQuantity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Bullets",
+                  "longDescription": "",
+                  "name": "Value",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Enable bullet rotation.",
+              "fullName": "Enable (or disable) bullet rotation",
+              "functionType": "Action",
+              "group": "",
+              "name": "SetRotateBullet",
+              "private": false,
+              "sentence": "Enable bullet rotation on _PARAM0_:  _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"RotateBullet\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyRotateBullet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"RotateBullet\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyRotateBullet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "yes",
+                  "description": "Rotate bullet to match trajetory",
+                  "longDescription": "",
+                  "name": "RotateBullet",
+                  "optional": true,
+                  "supplementaryInformation": "",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the cooldown of the fire rate.",
+              "fullName": "Set cooldown",
+              "functionType": "Action",
+              "group": "",
+              "name": "SetCooldown",
+              "private": false,
+              "sentence": "Set the fire rate of _PARAM0_ to _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetPropertyFireCooldown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"NewCooldown\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Cooldown in seconds",
+                  "longDescription": "",
+                  "name": "NewCooldown",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Number of bullets to shoot at once (evenly spaced inside the Firing Arc).",
+              "fullName": "Bullet quantity",
+              "functionType": "Expression",
+              "group": "",
+              "name": "BulletQuantity",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyBulletQuantity()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Angle variance in degrees.",
+              "fullName": "Angle variance",
+              "functionType": "Expression",
+              "group": "",
+              "name": "AngleVariance",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyAngleVariance()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Firing arc in degrees.",
+              "fullName": "Firing arc",
+              "functionType": "Expression",
+              "group": "",
+              "name": "FiringArc",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyFiringArc()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Cooldown of the fire rate in seconds.",
+              "fullName": "Cooldown",
+              "functionType": "Expression",
+              "group": "",
+              "name": "Cooldown",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyFireCooldown()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Seconds remaining before the cooldown will permit a bullet to be fired.",
+              "fullName": "Time remaining before a bullet may be fired",
+              "functionType": "Expression",
+              "group": "",
+              "name": "CooldownTimeLeft",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "max(0,Object.Behavior::Cooldown() - Object.ObjectTimerElapsedTime(\"FireCooldown\"))"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "FireBullet::FireBullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "label": "Cooldown, in seconds, before firing again",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "FireCooldown"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "HasJustFired"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Firing arc (bullets are spread evenly inside)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "FiringArc"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Angle variance (to simulate imperfect aim) Range: 0 to 180 degrees",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "AngleVariance"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Number of bullets to shoot at once (evenly spaced inside the Firing Arc)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "BulletQuantity"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Rotate bullet to match trajectory",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RotateBullet"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Current bullet angle (used for multishot)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CurrentBulletAngle"
+            }
+          ]
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "@4ian",
       "category": "Game mechanic",
