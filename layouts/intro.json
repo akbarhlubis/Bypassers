@@ -1,0 +1,362 @@
+{
+  "b": 20,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Intro",
+  "name": "Intro",
+  "r": 20,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 20,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5199999999999996,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "TeksObjek",
+      "objects": [
+        {
+          "name": "TeksSub"
+        },
+        {
+          "name": "TeksTitle"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TeksSub",
+      "persistentUuid": "2fb2aa3e-8f27-47ff-bb50-d114119800e6",
+      "width": 0,
+      "x": 243,
+      "y": 205,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TeksTitle",
+      "persistentUuid": "3966122a-9c1e-49e1-a55a-42880d7be302",
+      "width": 0,
+      "x": 299,
+      "y": -155,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TeksSub",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Don't Let Them In...",
+      "font": "assets\\fonts\\cour.ttf",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TeksTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Bypassers",
+      "font": "assets\\fonts\\cour.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "TeksObjek",
+            "=",
+            "(SceneWindowWidth()/2)-(TeksObjek.Width()/2)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionTween"
+          },
+          "parameters": [
+            "TeksTitle",
+            "Tween",
+            "\"PosisiY\"",
+            "(SceneWindowWidth()/2)-(TeksTitle.Width()/2)",
+            "(SceneWindowHeight()/2)-(TeksTitle.Height()/2)",
+            "\"bouncePast\"",
+            "5000",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "TeksSub",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "TeksTitle",
+            "Tween",
+            "\"PosisiY\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "TeksTitle",
+            "Tween",
+            "\"PosisiY\"",
+            "0.5",
+            "\"easeInOutQuad\"",
+            "500",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionTween"
+          },
+          "parameters": [
+            "TeksSub",
+            "Tween",
+            "\"Tengah\"",
+            "(SceneWindowWidth()/2)-(TeksSub.Width()/2)",
+            "(SceneWindowHeight()/2)-(TeksSub.Height()/2)",
+            "\"easeInOutExpo\"",
+            "500",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "TeksTitle",
+            "Tween",
+            "\"PosisiY\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "TeksTitle",
+            "Tween",
+            "\"PosisiY\"",
+            "0.5",
+            "\"easeInOutQuad\"",
+            "500",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "TeksSub",
+            "Tween",
+            "\"Tengah\"",
+            "200",
+            "\"linear\"",
+            "1000",
+            "500"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "TeksSub",
+            "Tween",
+            "\"Tengah\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "TeksSub",
+            "Tween",
+            "\"Tengah\"",
+            "0",
+            "\"linear\"",
+            "1000",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Splash Screen\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
