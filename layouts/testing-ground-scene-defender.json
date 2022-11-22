@@ -49,8 +49,8 @@
       "name": "Player",
       "persistentUuid": "ce59f11d-9411-47ef-a0b2-0c079c9c8c3a",
       "width": 0,
-      "x": 174,
-      "y": 282,
+      "x": 202,
+      "y": 259,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -257,12 +257,11 @@
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Property 1=Smile\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":3,\\\"height\\\":55,\\\"width\\\":55,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"D:\\\\Backup HDD\\\\Portofolio\\\\Bypassers\\\\assets\\\\character\\\\player\\\\idle\\\\idle-1.png\",\"D:\\\\Backup HDD\\\\Portofolio\\\\Bypassers\\\\assets\\\\character\\\\player\\\\idle\\\\idle-2.png\",\"D:\\\\Backup HDD\\\\Portofolio\\\\Bypassers\\\\assets\\\\character\\\\player\\\\idle\\\\idle-3.png\"],\"name\":\"idle\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.5,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\character\\player\\idle\\idle-1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\character\\player\\idle\\idle-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -275,7 +274,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 44,
+                        "y": 0
+                      },
+                      {
+                        "x": 44,
+                        "y": 69
+                      },
+                      {
+                        "x": 0,
+                        "y": 69
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -287,11 +305,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\character\\player\\idle\\idle-2.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\character\\player\\idle\\upset-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -304,7 +322,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 44,
+                        "y": 0
+                      },
+                      {
+                        "x": 44,
+                        "y": 69
+                      },
+                      {
+                        "x": 0,
+                        "y": 69
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -328,16 +365,16 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\character\\NPC\\enemy\\Hackpointer.png",
+                  "image": "assets\\character\\NPC\\enemy\\idle-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32.195552825927734,
-                    "y": 33.543785095214844
+                    "x": 10.800000190734863,
+                    "y": 11.850000381469727
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -410,8 +447,8 @@
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 46.08620834350586,
-                    "y": 210.00816345214844
+                    "x": 50.36415100097656,
+                    "y": 204.8414306640625
                   },
                   "customCollisionMask": [
                     [
@@ -809,17 +846,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Movement",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1158,6 +1184,18 @@
                 "RandomInRange(100,150)",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "HackPointer",
+                "Target.PointX(\"Center\")",
+                "Target.PointY(\"Center\")",
+                "0",
+                ""
+              ]
             }
           ]
         }
@@ -1169,7 +1207,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Hackerpoint Spawner",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1277,7 +1314,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
+      "disabled": true,
       "name": "Hover Mouse",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1404,6 +1441,50 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "Player",
+            "MouseX()",
+            "MouseY()",
+            "600",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [

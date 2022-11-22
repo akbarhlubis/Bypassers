@@ -256,6 +256,14 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Tween::AddObjectOpacityTween"
           },
           "parameters": [
@@ -285,6 +293,14 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "Tween::AddObjectOpacityTween"
